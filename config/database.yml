@@ -1,0 +1,13 @@
+default: &global
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  min_messages: warning
+
+development:
+  <<: *global
+  database: lyrics_api_development
+
+test:
+  <<: *global
+  database: lyrics_api_test
