@@ -1,1 +1,4 @@
-TODO: Burn gem versions
+TODO
+----
+* Burn gem versions
+* Write text for index
